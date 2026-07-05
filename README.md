@@ -1,6 +1,6 @@
-# 💼 Salary Prediction using Machine Learning
+# 🏠 House Price Prediction using Machine Learning
 
-A Machine Learning web application built with **Python** and **Streamlit** that predicts an employee's salary based on their **Years of Experience** using the **Linear Regression** algorithm.
+A Machine Learning web application built with **Python** and **Streamlit** that predicts house prices based on **Area**, **Number of Bedrooms**, and **Number of Bathrooms** using the **Linear Regression** algorithm.
 
 ## 🚀 Live Demo
 
@@ -12,11 +12,11 @@ A Machine Learning web application built with **Python** and **Streamlit** that 
 
 ## ✨ Features
 
-* 📊 Interactive salary dataset preview
-* 💰 Predict salary based on years of experience
+* 🏠 Predict house prices based on property details
+* 📊 Interactive dataset preview
 * 🤖 Linear Regression model implementation
 * 📈 Displays model accuracy (R² Score)
-* 📉 Regression line visualization
+* 📉 Area vs House Price visualization
 * 🖥️ Clean and user-friendly Streamlit interface
 
 ## 🛠️ Technologies Used
@@ -30,9 +30,9 @@ A Machine Learning web application built with **Python** and **Streamlit** that 
 ## 📁 Project Structure
 
 ```text
-salary-prediction-app/
+house-price-prediction-app/
 │── app.py
-│── salary.csv
+│── HousePrice.csv
 │── requirements.txt
 │── README.md
 │── .gitignore
@@ -43,13 +43,13 @@ salary-prediction-app/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/salary-prediction-app.git
+git clone https://github.com/YOUR_USERNAME/house-price-prediction-app.git
 ```
 
 2. Navigate to the project folder:
 
 ```bash
-cd salary-prediction-app
+cd house-price-prediction-app
 ```
 
 3. Install the required libraries:
@@ -66,18 +66,22 @@ streamlit run app.py
 
 ## 📊 How It Works
 
-1. Load the salary dataset.
+1. Load the house price dataset.
 2. Split the data into training and testing sets.
 3. Train a **Linear Regression** model.
-4. Enter years of experience.
-5. Predict the estimated salary.
-6. Display the regression line and model accuracy.
+4. Enter the property details:
+
+   * Area (sq. ft.)
+   * Number of Bedrooms
+   * Number of Bathrooms
+5. Predict the estimated house price.
+6. Display the prediction, model accuracy, and visualization.
 
 ## 📸 Output
 
 The application provides:
 
-* Salary prediction based on experience
+* House price prediction
 * Model accuracy (R² Score)
 * Scatter plot with regression line
 
@@ -87,6 +91,6 @@ The application provides:
 
 ## 👨‍💻 Author
 
-**shivanshi Dubey**
+**Shivanshi Dubey**
 
 If you found this project helpful, don't forget to ⭐ the repository!
